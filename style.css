@@ -1,4 +1,95 @@
+/* Fonts Added */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Mulish', sans-serif;
+}
+
+/* Common Styles */
+.d-none {
+  display: none;
+}
+
+.container {
+  max-width: 1440px;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.logo {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.logo h1 {
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.text-primary {
+  color: #0066CC;
+}
+
+
+/* Navbar Styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 44px;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #424247;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Media Queries */
+
+/* Small Devices */
+@media screen and (max-width:600px) {
+
+  /* Common Styles */
+  .d-none {
+    display: block;
+  }
+
+  .container {
+    width: 90%;
+    margin: 24px auto;
+  }
+
+  .logo {
+    gap: 10px;
+  }
+
+  .logo h1 {
+    font-size: 20px;
+  }
+
+
+  /* Navbar Styles */
+  .menu {
+    display: flex;
+  }
+
+  nav ul {
+    display: none;
+  }
+
 }
