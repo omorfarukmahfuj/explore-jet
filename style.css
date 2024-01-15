@@ -15,7 +15,7 @@
 .container {
   max-width: 1440px;
   width: 80%;
-  margin: 50px auto;
+  margin: 0 auto;
 }
 
 .logo {
@@ -48,12 +48,27 @@
   gap: 8px;
 }
 
+.section-title {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.section-description {
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+}
+
 
 /* Navbar Styles */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 50px auto;
 }
 
 nav ul {
@@ -87,6 +102,7 @@ nav a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .hero-banner h2 {
@@ -128,6 +144,34 @@ nav a {
   border-right: 16px solid transparent
 }
 
+/* Our Popular Tours */
+
+.popular-tours {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+
+.popular-tours p {
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+.popular-tours p:last-of-type {
+  margin-bottom: 32px;
+}
+
+.popular-tours ul li {
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+  line-height: 26px;
+  margin-left: 10px;
+  margin-bottom: 16px;
+}
 
 
 
@@ -162,9 +206,15 @@ nav a {
     font-size: 20px;
   }
 
+  .section-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
   /* Navbar Styles */
-  .menu {
-    display: flex;
+
+  nav {
+    margin: 18px auto;
   }
 
   nav ul {
@@ -172,6 +222,9 @@ nav a {
   }
 
   /* Hero Banner Styles */
+  .hero-banner {
+    margin-bottom: 24px;
+  }
 
   .hero-banner h2 {
     font-size: 22px;
@@ -195,16 +248,32 @@ nav a {
     margin-right: 0;
   }
 
+  /* Our Popular Tours */
+  .popular-tours {
+    flex-direction: column;
+    margin-bottom: 24px;
+    gap: 24px;
+  }
 
+  .popular-tours p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
 
+  .popular-tours p:last-of-type {
+    margin-bottom: 24px;
+  }
 
+  .popular-tours ul li {
+    margin-bottom: 14px;
+    font-size: 14px;
+    line-height: 24px;
+  }
 
-
-
-
-
-
-
+  .section-image img {
+    width: 100%;
+  }
 
 
 
