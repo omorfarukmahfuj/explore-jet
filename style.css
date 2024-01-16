@@ -158,7 +158,8 @@ nav a {
   margin-bottom: 100px;
 }
 
-.popular-tours p {
+.popular-tours p,
+.video-info p {
   color: rgba(19, 19, 24, 0.70);
   font-size: 16px;
   line-height: 26px;
@@ -370,6 +371,45 @@ nav a {
 }
 
 
+/* Simple Perfect Place */
+.video-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 28px;
+  margin-bottom: 100px;
+}
+
+.video-info {
+  width: 45%;
+}
+
+.video-info ul li {
+  color: #131318;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 16px;
+  margin-left: 5px;
+}
+
+.video-info ul li:last-child {
+  margin-bottom: 32px;
+}
+
+
+
+.video-container {
+  max-width: 610px;
+  width: 55%;
+  height: auto;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.video-container video {
+  width: 100%;
+}
 
 
 
@@ -604,7 +644,7 @@ nav a {
 
   /* Deals & Discounts */
   .deals-discounts-section {
-    margin-top: 32px;
+    margin: 32px auto 24px;
   }
 
   .deals-card-container {
@@ -642,4 +682,55 @@ nav a {
   .deals-discounts-section .m-auto {
     margin: 32px auto 0;
   }
+
+
+  /* Simple Perfect Place */
+  .video-section {
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+
+  .video-info {
+    width: 90%;
+
+  }
+
+  .video-info ul li {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .video-info ul li:last-child {
+    margin-bottom: 24px;
+  }
+
+
+
+  .video-container {
+    max-width: 335px;
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
