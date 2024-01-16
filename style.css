@@ -365,6 +365,10 @@ nav a {
   margin-bottom: 24px;
 }
 
+.deals-discounts-section .m-auto {
+  margin: 48px auto 0;
+}
+
 
 
 
@@ -635,4 +639,7 @@ nav a {
     margin-bottom: 16px;
   }
 
+  .deals-discounts-section .m-auto {
+    margin: 32px auto 0;
+  }
 }
