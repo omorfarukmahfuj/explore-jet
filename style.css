@@ -290,6 +290,128 @@ nav a {
   width: 44%;
 }
 
+/* Deals & Discounts */
+.deals-discounts-section {
+  margin-bottom: 100px;
+}
+
+.deals-card-container {
+  background-image: url('images/deals-card-img.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 1170px;
+  height: 500px;
+  margin: 24px auto;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+#deals-card-container-left {
+  justify-content: left;
+}
+
+.deals-card {
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+  max-width: 579px;
+  width: 40%;
+  max-height: 389px;
+  padding: 50px;
+  margin: 50px;
+}
+
+.deals-card-info {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.deals-card-info>span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #0066CC;
+}
+
+.deals-card-info>span>p {
+  color: #5A5A5D;
+  font-size: 16px;
+}
+
+.deals-card-title {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.deals-card-description {
+  color: #5A5A5D;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.deals-card-price {
+  color: #06C;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -458,15 +580,15 @@ nav a {
   .card {
     width: 80%;
   }
-  
+
   .card img {
     margin-bottom: 16px;
   }
-  
+
   .card h4 {
     font-size: 20px;
   }
-  
+
   .card p {
     font-size: 14px;
     line-height: 24px;
@@ -475,6 +597,42 @@ nav a {
   #card-red {
     width: 80%;
   }
-  
+
+  /* Deals & Discounts */
+  .deals-discounts-section {
+    margin-top: 32px;
+  }
+
+  .deals-card-container {
+    margin: 16px auto;
+    align-items: end;
+    border-radius: 16px;
+  }
+
+  .deals-card {
+    width: 100%;
+    padding: 24px;
+    margin: 16px;
+  }
+
+  .deals-card-info {
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+
+  .deals-card-title {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .deals-card-description {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+
+  .deals-card-price {
+    margin-bottom: 16px;
+  }
 
 }
