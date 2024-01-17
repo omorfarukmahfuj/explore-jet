@@ -56,13 +56,20 @@
   margin-bottom: 24px;
 }
 
-.section-description {
+.section-description-center {
   color: rgba(19, 19, 24, 0.70);
   text-align: center;
   font-size: 16px;
   line-height: 26px;
   width: 55%;
   margin: 0 auto 48px;
+}
+
+.section-description-left {
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 24px;
 }
 
 .text-center {
@@ -158,14 +165,6 @@ nav a {
   align-items: center;
   gap: 50px;
   margin-bottom: 100px;
-}
-
-.popular-tours p,
-.video-info p {
-  color: rgba(19, 19, 24, 0.70);
-  font-size: 16px;
-  line-height: 26px;
-  margin-bottom: 24px;
 }
 
 .popular-tours p:last-of-type {
@@ -501,6 +500,73 @@ nav a {
   font-weight: 800;
 }
 
+/* Extra Section */
+
+.extra-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 100px;
+}
+
+.extra-section i {
+  color: #0066CC;
+  margin-bottom: 10px;
+}
+
+.extra-section .image-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 300px;
+  object-fit: cover;
+  transition: background .25s ease-in-out;
+  cursor: pointer;
+}
+
+.extra-section .image-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  color: white;
+  text-align: center;
+}
+
+.extra-section .image-container:hover {
+  background: #06C;
+}
+
+.extra-section .image-container:hover img {
+  opacity: 0.5;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.image-container .image-info h4 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  transition: transform .5s ease-in-out;
+}
+
+.extra-section .image-container:hover h4 {
+  transform: translateY(-25px);
+}
+
+
+.image-container .image-info p {
+  font-size: 16px;
+  word-spacing: 3px;
+  transition: transform 1s ease-in-out;
+}
+
+.extra-section .image-container:hover p {
+  transform: translateY(-20px);
+}
+
 /* Footer Styles */
 
 footer {
@@ -564,7 +630,7 @@ footer small {
     margin-bottom: 16px;
   }
 
-  .section-description {
+  .section-description-center {
     font-size: 14px;
     line-height: 24px;
     width: 100%;
@@ -826,6 +892,14 @@ footer small {
 
   .discount-box .discount {
     font-size: 20px;
+  }
+
+  /* Extra Section */
+  
+  .extra-section {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+    margin-bottom: 24px;
   }
 
   /* Footer Styles */
