@@ -412,13 +412,94 @@ nav a {
 }
 
 
+/* Newsletter Section */
+.newsletter-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+  gap: 24px;
+}
 
+.newsletter-form-container {
+  max-width: 474px;
+  width: 40%;
+  border-radius: 16px;
+  border: 1px solid #06C;
+  padding: 40px;
+}
 
+.newsletter-form-container h4 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
 
+.newsletter-form-container p {
+  color: #5A5A5D;
+  font-size: 16px;
+  line-height: 26px;
+}
 
+.newsletter-form-container hr {
+  max-width: 393px;
+  border-width: 1px;
+  background: rgba(19, 19, 24, 0.10);
+  margin: 24px auto;
+}
 
+.newsletter-form-container form {
+  display: flex;
+  flex-direction: column;
+}
 
+.newsletter-form-container form input[type="text"],
+.newsletter-form-container form input[type="email"] {
+  display: block;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  border: none;
+  outline: none;
+  padding: 16px 20px;
+}
 
+.newsletter-image-container {
+  border-radius: 16px;
+  overflow: hidden;
+  width: 60%;
+  max-height: 385px;
+  display: flex;
+  position: relative;
+}
+
+.newsletter-image-container img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.discount-box {
+  position: absolute;
+  border-radius: 16px;
+  background: #06C;
+  color: white;
+  padding: 18px 32px;
+  transform: rotate(-20deg);
+  bottom: 0;
+  right: 0;
+  margin: 0 10px 45px 0;
+}
+
+.discount-box .domain {
+  text-align: center;
+  font-size: 18px;
+}
+
+.discount-box .discount {
+  font-size: 24px;
+  font-weight: 800;
+}
 
 
 
@@ -713,6 +794,48 @@ nav a {
   }
 
 
+  /* Newsletter Section */
+  .newsletter-section {
+    flex-direction: column;
+    margin-bottom: 24px;
+    gap: 16px;
+  }
+
+  .newsletter-form-container {
+    width: 85%;
+    padding: 24px;
+  }
+
+  .newsletter-form-container h4 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .newsletter-form-container p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .newsletter-form-container hr {
+    margin: 16px auto;
+  }
+
+  .newsletter-image-container {
+    width: 100%;
+  }
+
+  .discount-box {
+    padding: 14px 28px;
+    margin: 0 6px 40px 0;
+  }
+
+  .discount-box .domain {
+    font-size: 14px;
+  }
+
+  .discount-box .discount {
+    font-size: 20px;
+  }
 
 
 
